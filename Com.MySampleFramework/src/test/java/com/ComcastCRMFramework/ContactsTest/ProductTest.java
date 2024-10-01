@@ -1,9 +1,13 @@
 package com.ComcastCRMFramework.ContactsTest;
 
+import org.testng.annotations.Test;
+
 public class ProductTest {
 
-	public static void main(String[] args) {
+	@Test
+	public void productTest() {
 		System.out.println("product added");
+		System.out.println("iphone product added");
 
 	}
 
